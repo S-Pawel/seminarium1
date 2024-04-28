@@ -1,0 +1,83 @@
+body{
+    background-color: #839099;
+    min-width: 350px;
+}
+nav{
+    background-color: #941d1d;
+}
+.navbar{
+    min-height: 50px;
+}
+footer{
+    background-color: #941d1d;
+    clear: both;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    z-index: 9999;
+    height: 30px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color:aliceblue;
+}
+#rightBottoms{
+    float: left;
+}
+.navbar-nav {
+    float: right;
+}
+.nav-item{
+    font-size: 25px;
+    font-weight: 700;
+}
+#main{
+    background-image: url(map_one.PNG);
+    height: 90vh;
+}
+#map{
+    height: 90vh;
+    background-color: #f8f8f8;
+ 
+}
+.nav-item:hover{
+    cursor: pointer;
+    color:  aliceblue !important;
+}
+
+
+        .ol-control button {
+            background-color: #f8f8f8 !important;
+            color: #000000 !important;
+            border-radius: 0px !important;
+        }
+        .ol-zoom, .geolocate, .gcd-gl-control .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 3px !important;
+        }
+        .ol-scale-line {
+            background: none !important;
+        }
+        .ol-scale-line-inner {
+            border: 2px solid #f8f8f8 !important;
+            border-top: none !important;
+            background: rgba(255, 255, 255, 0.5) !important;
+            color: black !important;
+        }
+
+section {
+    display: none;
+}
+
+section.active {
+    display: block;
+}
+.navbar-toggler-icon{
+    height: auto;
+    width: auto;
+    font-size: 30px;
+}
